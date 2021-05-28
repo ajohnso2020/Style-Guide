@@ -7,6 +7,26 @@ h1 {
  font-size: 35px;
 }
 
+.nav > li {
+  display: inline;
+}
+
+.nav a {
+        color: #fff;
+        background: #6965FF;
+        text-decoration: none;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-right: 15px;
+        padding: 10px 10px;
+        font-size: 20px;
+}
+
+.nav a:hover {
+    color: #FFAE50;
+}
+
 h2 {
  text-align: center;
  font-size: 30px;
@@ -93,6 +113,7 @@ h3 {
 .text ul > li {
     list-style-type: square;
     margin: 10px;
+    padding: 10px;
 }
 
 .h1, .h2, .p {
