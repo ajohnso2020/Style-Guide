@@ -88,9 +88,31 @@ h3 {
 .text {
     display: flex;
     margin: 10px;
-    background-color: #FFAE50;
 }
 
 .text ul > li {
     list-style-type: square;
+    margin: 10px;
+}
+
+.h1, .h2, .p {
+    border: 5px solid #6965FF;
+    flex: 1;
+    margin: 5px;
+    background-color: #FFAE50;
+}
+
+@media only screen and (max-width: 600px){
+    .colors {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .fonts {
+       display: block;
+    }
+    
+    .text {
+        display: block;
+    }
 }
